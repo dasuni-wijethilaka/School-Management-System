@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="6ecd3cf0b372fa36f71b486dee4809043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6ecd3cf0b372fa36f71b486dee4809043.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6ecd3cf0b372fa36f71b486dee4809045" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6ecd3cf0b372fa36f71b486dee4809045.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gold-metal-plate-background3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gold-metal-plate-background3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837193" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837193.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gold-metal-plate-background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gold-metal-plate-background2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6ecd3cf0b372fa36f71b486dee4809046" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6ecd3cf0b372fa36f71b486dee4809046.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-exam-221622864" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-exam-221622864.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-exam-221622861" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-exam-221622861.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3449593" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3449593.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837192.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gold-metal-plate-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gold-metal-plate-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gold-metal-plate-background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gold-metal-plate-background1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3449596" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3449596.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6ecd3cf0b372fa36f71b486dee480904" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6ecd3cf0b372fa36f71b486dee480904.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3449592" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3449592.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1353543" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1353543.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3449595" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3449595.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-exam-221622862" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-exam-221622862.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6ecd3cf0b372fa36f71b486dee4809044" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6ecd3cf0b372fa36f71b486dee4809044.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3449591" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3449591.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Set-Of-3-Blue-Green-Prefect-Coastal-Guardian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Set-Of-3-Blue-Green-Prefect-Coastal-Guardian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3449594" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3449594.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837195" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837195.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1073889" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1073889.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-137283719" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-137283719.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gold-metal-plate-background4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gold-metal-plate-background4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344959" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344959.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-exam-221622863" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-exam-221622863.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20210413_135500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20210413_135500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_3742531-stock-photo-blank-frame-with-various-kids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_3742531-stock-photo-blank-frame-with-various-kids.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6ecd3cf0b372fa36f71b486dee4809042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6ecd3cf0b372fa36f71b486dee4809042.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-exam-221622865" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-exam-221622865.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-simple-music-kid-listening-to-music-dancing-poster-image_199117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-simple-music-kid-listening-to-music-dancing-poster-image_199117.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1431f7159b74218a14ee2141d13433dd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1431f7159b74218a14ee2141d13433dd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20210413_100004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20210413_100004.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6ecd3cf0b372fa36f71b486dee4809041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6ecd3cf0b372fa36f71b486dee4809041.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837194.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-happy-kids-playing-together-cartoon-happy-kids-playing-together-holding-hand-kids-1372837191.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-exam-22162286" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-exam-22162286.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-exam-221622866" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-exam-221622866.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
